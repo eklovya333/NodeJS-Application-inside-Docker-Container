@@ -1,5 +1,10 @@
 # NodeJS-Application-inside-Docker-Container
 Making real world projects with Docker by hosting a NodeJS application
+1. Create Node JS web app
+2. Create a Dockerfile
+3. Build image from dockerfile
+4. Run image as container
+5. Connect to web app from a browser 
 
 # Building our docker container
 docker build -t akumar/web_applicaion .
