@@ -15,4 +15,4 @@ docker run -p 8080:8080 akumar/web_application
 Setting up an explicit port mapping. The site is hosted on localhost. For windows, do a docker-machine ls. The default running machine indicates the URL for the launched application. For this application, the URL is http://192.168.99.100:<port#>. Here, the port# used in index.js is 8080.
 
 # To run a shell inside the container
-docker exec -it <container id> sh
+docker exec -it <container ID> sh
